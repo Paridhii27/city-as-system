@@ -7,8 +7,13 @@ body {
 
 h1{
   color:white;
-  padding-left:45vw;
+  padding-left:35vw;
   padding-bottom: 0;
+}
+
+h1:hover{
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 0 2px #f5ebb5, 0 0 3px #fcba03, 0 0 4px #fcba03, 0 0 5px #eb6342, 0 0 6px #eb441e, 0 0 7px #f52c2c, 0 0 8px #f20505;
 }
 
 .image-scroll{
@@ -38,13 +43,12 @@ h1{
   }
 
 .btn {
-    margin:auto;
     display:flex;
     justify-content: space-around;
     font-size: 18px;
     border-radius: 10px;
     color: rgba(255, 255, 255, 0.8);
-    background: rgb(145, 92, 182);
+    background: #97A2D1;
     cursor: pointer;
 }
 
@@ -91,21 +95,99 @@ li {
 #pic{
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 27%;
   transform: translate(-50%, -50%);
   width:auto;
-  height: 65vh;
+  height: 50vh;
 }
 
 #pic2{
   position: fixed;
+  top: 30%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  width:auto;
+  height: 35vh;
+}
+
+#pic3{
+  position: fixed;
+  top: 70%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  width:auto;
+  height: 35vh;
+}
+
+#pic5{
+  position: fixed;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width:auto;
+  height: 35vh;
+}
+
+#i1{
+  position: fixed;
   top: 50%;
-  left: 20%;
+  left: 80%;
   transform: translate(-50%, -50%);
   width:auto;
   height: 45vh;
 }
 
+#i2{
+  position: fixed;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width:auto;
+  height: 45vh;
+}
+
+#text {
+  position: fixed;
+  font-size: 34px;
+  top: 15%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  /* width:auto;
+  height: 45vh; */
+}
+
+#t1{
+  background: #325aa8;
+  position: fixed;
+  font-size:26px;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+#t2{
+  background: #244380;
+  position: fixed;
+  font-size:26px;
+  top: 20%;
+  left: 15%;
+}
+
+#t3{
+  background: #244380;
+  position: fixed;
+  font-size:26px;
+  top: 10%;
+  left: 65%;
+}
+
+#t4{
+  background: #325aa8;
+  position: fixed;
+  font-size:26px;
+  top: 68%;
+  left: 10%;
+}
 
 #buttonssss{
   position: fixed;
@@ -117,8 +199,8 @@ li {
 
 #buttons2{
   position: fixed;
-  /* z-index: -1; */
-  bottom: 3%;
-  left: 45%;
+  top: 88vh;
+  left: 40vw;
   display: flex;
 }
+

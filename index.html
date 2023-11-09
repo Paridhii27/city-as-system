@@ -9,15 +9,15 @@
     <title>City As System</title>
 </head>
 <body>
-    <h1>Sky Watchers</h1>
+    <h1>Gantry Plaza State Park</h1>
         <div class="image-scroll">
             <ul>
                 <li> <img src="assets/images/1.JPG"/>Lorem Ipsum</li>
                 <li> <img src="assets/images/2.JPG"/>Dolor Sit</li>
-                <li> <img src="assets/images/3.JPG"/>Amet Consectetur</li>
                 <li> <img src="assets/images/4.JPG"/>Adipiscing Elit</li>
                 <li> <img src="assets/images/5.JPG"/> Nunc Tortor</li>
                 <li> <img src="assets/images/6.JPG"/>Metus Mollis</li>
+                <li> <img src="assets/images/3.JPG"/>Amet Consectetur</li>
                 <li> <img src="assets/images/7.JPG"/>Congue Sagittis</li>
                 <li> <img src="assets/images/8.JPG"/>Vestibulum Et</li>
                 <li> <img src="assets/images/9.JPG"/>Donec Eget</li>
@@ -28,18 +28,25 @@
                 <li> <img src="assets/images/14.JPG"/>Pellentesque Sapien</li>
                 <li> <img src="assets/images/15.JPG"/>Suspendisse Vel</li>
                 <li> <img src="assets/images/16.JPG"/></li>
+                <li> <img src="assets/images/17.JPG"/></li>
+                <li> <img src="assets/images/18.JPG"/></li>
+                <li> <img src="assets/images/19.JPG"/></li>
+                <li> <img src="assets/images/20.JPG"/></li>
             </ul>
         </div>
 
         <div id="buttons2">
-            <button class="btn" onclick="play()">I can hear</button>
-            <audio id="audio" src="assets/sound/soundwalk.mp3"></audio>
+            <form action="hear.html">
+                <button class="btn" onclick="play()">I can hear</button>
+            </form>
 
             <form action="see.html">
                 <button class="btn" onclick="displayImg()">I can see</button>
             </form>
-            <button class="btn" onclick="displaySmells()">I can smell</button>
-        
+
+            <form action="smell.html">
+                <button class="btn" onclick="displaySmells()">I can smell</button>
+            </form>
         </div>
 
     <script src="script.js"></script>
