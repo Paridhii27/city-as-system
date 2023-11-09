@@ -6,50 +6,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>City As System</title>
 </head>
 <body>
-    <div class="container">
-        <!-- <img src="assets/images/1.JPG" style="width:40vw;height:60vh" id='text'> -->
-        <div class="bottom-left">
-            <p>Sky Watchers</p>
+    <h1>Sky Watchers</h1>
+        <div class="image-scroll">
+            <ul>
+                <li> <img src="assets/images/1.JPG"/>Lorem Ipsum</li>
+                <li> <img src="assets/images/2.JPG"/>Dolor Sit</li>
+                <li> <img src="assets/images/3.JPG"/>Amet Consectetur</li>
+                <li> <img src="assets/images/4.JPG"/>Adipiscing Elit</li>
+                <li> <img src="assets/images/5.JPG"/> Nunc Tortor</li>
+                <li> <img src="assets/images/6.JPG"/>Metus Mollis</li>
+                <li> <img src="assets/images/7.JPG"/>Congue Sagittis</li>
+                <li> <img src="assets/images/8.JPG"/>Vestibulum Et</li>
+                <li> <img src="assets/images/9.JPG"/>Donec Eget</li>
+                <li> <img src="assets/images/10.JPG"/>Maecenas et Justo</li>
+                <li> <img src="assets/images/11.JPG"/>Malesuada Quam</li>
+                <li> <img src="assets/images/12.JPG"/>Ultricies Sollicitudin</li>
+                <li> <img src="assets/images/13.JPG"/>Gravida Nibh</li>
+                <li> <img src="assets/images/14.JPG"/>Pellentesque Sapien</li>
+                <li> <img src="assets/images/15.JPG"/>Suspendisse Vel</li>
+                <li> <img src="assets/images/16.JPG"/></li>
+            </ul>
         </div>
-    </div>
 
-    <div class="image-scroll">
-        <ul>
-            <li> <img src="assets/images/1.JPG" alt="cut citrus fruits. " />Lorem Ipsum</li>
-            <li> <img src="assets/images/2.JPG" alt="sliced mango. " />Dolor Sit</li>
-            <li> <img src="assets/images/3.JPG" alt="a bunch of blueberries. " />Amet Consectetur</li>
-            <li> <img src="assets/images/4.JPG" alt="a pineapple sitting on a table. " />Adipiscing Elit</li>
-            <li> <img src="assets/images/5.JPG" alt="frozen raspberries. " /> Nunc Tortor</li>
-            <li> <img src="assets/images/6.JPG" alt="a sliced strawberry. " />Metus Mollis</li>
-            <li> <img src="assets/images/7.JPG" alt="an arrangement of assorted sliced fruits. " />Congue Sagittis</li>
-            <li> <img src="assets/images/8.JPG" alt="sliced watermelons. " />Vestibulum Et</li>
-            <li> <img src="assets/images/9.JPG" alt="grapefruits, lemons, and pomegranates. " />Donec Eget</li>
-            <li> <img src="assets/images/10.JPG" alt="half of an avocado. " />Maecenas et Justo</li>
-            <li> <img src="assets/images/11.JPG" alt="half of a lime. " />Malesuada Quam</li>
-            <li> <img src="assets/images/12.JPG" alt="a single cherry with stem. " />Ultricies Sollicitudin</li>
-            <li> <img src="assets/images/13.JPG" alt="a bunch of bananas. " />Gravida Nibh</li>
-            <li> <img src="assets/images/14.JPG" alt="three pears. " />Pellentesque Sapien</li>
-            <li> <img src="assets/images/15.JPG" alt="a basket full of peaches next to a plate with sliced peaches. " />Suspendisse Vel</li>
-            <li> <img src="assets/images/16.JPG" alt="a bowl of avocados. " /></li>
-        </ul>
-    </div>
+        <div id="buttons2">
+            <button class="btn" onclick="play()">I can hear</button>
+            <audio id="audio" src="assets/sound/soundwalk.mp3"></audio>
 
-    <embed src="/assets/sound/soundwalk.mp3" loop="true" autostart="true" width="2" height="0">
-
-    <!-- <input type="button" value="I can hear" onclick="play()"> -->
-    <button class="btn" onclick="play()">I can hear</button>
-    <audio id="audio" src="assets/sound/soundwalk.mp3"></audio>
-    
-    
-    <button class="btn" onclick="myFunction()">I can see</button>
-    <button class="btn" onclick="displaySmells()">I can smell</button>
-
-    <div style="display: none;">
-        <p class="textField"></p>
-    </div>
+            <form action="see.html">
+                <button class="btn" onclick="displayImg()">I can see</button>
+            </form>
+            <button class="btn" onclick="displaySmells()">I can smell</button>
+        
+        </div>
 
     <script src="script.js"></script>
 </body>
