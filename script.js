@@ -3,6 +3,16 @@ function play() {
     audio.play();
 }
 
+function playPause(){
+  var theVideo = document.querySelector("vidPlay");
+  if (theVideo.paused) {
+    theVideo.play();
+  }
+  else  {
+    theVideo.pause();
+  }
+}
+
 function displaySmells() {
     document.querySelector(".textField").innerHTML =
     "hi";

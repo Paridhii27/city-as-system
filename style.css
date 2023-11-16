@@ -47,6 +47,13 @@ h1:hover {
   color: white;
 }
 
+.vid-container {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
 .btn {
   display: flex;
   justify-content: space-around;
@@ -211,6 +218,42 @@ li {
   font-size: 26px;
   top: 68%;
   left: 10%;
+}
+
+#v1 {
+  position: fixed;
+  top: 70%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 35vh;
+}
+
+#v2 {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 35vw;
+  height: 50vh;
+}
+
+#v3 {
+  position: fixed;
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 35vh;
+}
+
+#v4 {
+  position: fixed;
+  top: 20%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  width: 35vw;
+  height: 50vh;
 }
 
 #buttonssss {
